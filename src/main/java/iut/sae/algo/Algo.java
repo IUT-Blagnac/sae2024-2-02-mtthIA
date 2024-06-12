@@ -57,6 +57,11 @@ public class Algo{
     }
 
     public static String unRLE(String in, int iteration) throws AlgoException{
+        for(int i = 0; i<in.length()-1;i++){
+            if(in.charAt(i)== in.charAt(i+1)){
+
+            }
+        }
         if(iteration == 0){
             return in;
         }else{
