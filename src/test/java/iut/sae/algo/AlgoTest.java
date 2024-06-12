@@ -91,6 +91,17 @@ public class AlgoTest extends TestCase{
 
          assertEquals("abc", (Algo.unRLE("111a111b111c", 2)));
          assertEquals("abc", (Algo.unRLE("311a311b311c", 3)));
+         
+      }
+      catch(Exception e){
+         fail("Exception inatendue");
+      }
+   }
+
+   @Test
+   public void testPerf(){
+      try{
+         assertEquals("SAE", (Algo.unRLE(Algo.RLE("SAE", 60), 60)));
       }
       catch(Exception e){
          fail("Exception inatendue");

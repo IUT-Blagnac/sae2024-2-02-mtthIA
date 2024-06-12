@@ -37,14 +37,16 @@ public class Algo{
     }
 
     public static String unRLE(String in) throws AlgoException{
+        int cpt;
+        char character;
         if (in.length()==0 || !Character.isDigit(in.charAt(0))){
             return in;
         }
         StringBuilder chaineUnrle = new StringBuilder();
         for(int i = 0; i<in.length(); i+= 2){
             
-            int cpt = Character.getNumericValue(in.charAt(i));
-            char character = in.charAt(i+1);
+            cpt = Character.getNumericValue(in.charAt(i));
+            character = in.charAt(i+1);
             for(int j = 0; j<cpt; j++){
                 chaineUnrle.append(character);
             }
