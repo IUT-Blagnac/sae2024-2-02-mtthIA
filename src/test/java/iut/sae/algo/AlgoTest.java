@@ -71,6 +71,7 @@ public class AlgoTest extends TestCase{
          assertEquals("aaabaa", Algo.unRLE("3a1b2a"));
          assertEquals("aAa", Algo.unRLE("1a1A1a"));
          assertEquals("WWWWWWWWWWWWW", Algo.unRLE("9W4W"));
+         assertEquals("aabbb", Algo.unRLE("aabbb"));
       }
       catch(Exception e){
          fail("Exception inatendue");
