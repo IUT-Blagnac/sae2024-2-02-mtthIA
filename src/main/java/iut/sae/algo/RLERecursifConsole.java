@@ -24,13 +24,10 @@ public class RLERecursifConsole{
             scanner.close();
         }
 
-        try{
             System.out.println("Entrée : "+in);
             System.out.println("Itérations : "+iterations);
-            System.out.println("Sortie : "+ Algo.RLE(in, iterations));
-        }
-        catch(AlgoException e){
-            System.err.println("Erreur lors de la transformation");
-        }
+            System.out.println("Sortie : "+ Efficacité49.RLE(in, iterations));
+        
+
     }
 }
