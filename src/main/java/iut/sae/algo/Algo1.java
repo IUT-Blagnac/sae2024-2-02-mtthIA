@@ -1,7 +1,7 @@
 package iut.sae.algo;
 
 
-public class Algo{
+public class Algo1{
     public static String RLE(String in){
         int cpt = 1;
         StringBuilder chaineRle = new StringBuilder();
