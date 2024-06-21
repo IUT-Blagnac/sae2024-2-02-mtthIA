@@ -39,3 +39,8 @@ def unrle(s: str) -> str:
     """
     return ''.join(char * int(n)
                    for n, char in batched(s, 2))  # groupe par 2
+
+
+print(unrle("2d5e2d5e"))
+print(unrle(""))
+print(unrle("aaaff"))

@@ -16,3 +16,5 @@ def rle_encode(input_string):
 
     encoded_string.append(f"{count}{current_char}")
     return ''.join(encoded_string)
+
+print(rle_encode("wwwwwwwwwwwww"))

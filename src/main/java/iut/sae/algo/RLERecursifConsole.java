@@ -23,10 +23,15 @@ public class RLERecursifConsole{
 
             scanner.close();
         }
-
+        try {
             System.out.println("Entrée : "+in);
             System.out.println("Itérations : "+iterations);
-            System.out.println("Sortie : "+ Efficacité49.RLE(in, iterations));
+            System.out.println("Sortie : "+ Algo.RLE(in, iterations));
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+
+            
         
 
     }

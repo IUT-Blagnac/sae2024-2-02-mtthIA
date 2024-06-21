@@ -1,6 +1,7 @@
+package iut.sae.algo;
 //package iut.sae.algo;
 
-public class efficacite{
+public class Algo{
     public static String RLE(String in){
         int finChaine = in.length();
         String resultat = "";

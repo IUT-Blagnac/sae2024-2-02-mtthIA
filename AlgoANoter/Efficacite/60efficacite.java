@@ -1,7 +1,7 @@
 package iut.sae.algo;
 
 
-public class Efficacite{
+public class Algo{
     public static String RLE(String in){
         String out = "";
         int nbrLettres = 1;

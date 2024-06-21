@@ -1,6 +1,6 @@
 package iut.sae.algo;
 
-public class simplicite {
+public class Algo {
 
     /**
      * Méthode qui applique l'algorithme de compression RLE (Run Length Encoding) sur une chaîne de caractères.
