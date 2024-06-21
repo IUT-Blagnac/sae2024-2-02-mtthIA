@@ -45,8 +45,8 @@ endif::[]
 
 === De la solution...
 
-* LAST NAME : DOE
-* First name : John
+* LAST NAME : LIONARDO
+* First name : Matthias
 * TD group : 
 - [ ] 1
 - [x] 2
@@ -168,7 +168,7 @@ Vous utiliserez le dépôt initial qui vous aura été attribué via classroom p
 |==========================================================================
 | #    | lien                                                     | langage  | catégorie 
 | 1    | link:src/main/java/iut/sae/algo/Algo.java[meilleur java]| Java     | Efficacité
-| 2    | link:src/main/java/iut/sae/algo/Simplicite.java[meilleur Python]    | Python     | Simplicité  
+| 2    | link:src/main/java/iut/sae/algo/Simplicite.py[meilleur Python]    | Python     | Simplicité  
 |==========================================================================
 
 === Phase 2 (deadline : **vendredi 21 juin 2024** à minuit)
